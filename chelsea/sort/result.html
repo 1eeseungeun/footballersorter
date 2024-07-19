@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full scroll-smooth bg-gray-900 antialiased __variable_e66fe9 __variable_eab306">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="google-adsense-account" content="ca-pub-6146882000434658">
+    <link rel="shortcut icon" href="/footballersorter/src/assets/football.ico" type="image/x-icon">
+    <link rel="icon" href="/footballersorter/src/assets/football.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Choose Your Favourite Chelsea Player!</title>
+</head>
+<body>
+<div class="bg-gray-900 flex flex-col h-screen justify-between">
+    <!-- Header -->
+    <header>
+        <nav class="mx-auto flex max-w-7xl items-center justify-between lg:px-8" aria-label="Global">
+        </nav>
+        <div class="mt-6 flow-root">
+            <div class="-my-6 divide-y divide-gray-500/25">
+            </div>
+            <div class="hidden sm:block py-6">
+                <p class="mt-6 mr-6 text-right text-sm text-bold leading-5 text-gray-400 md:order-1 md:mt-0">
+                    Copyright &copy; 2023,
+                    <u><strong><a href="https://github.com/1eeseungeun/footballersorter" target="_blank"
+                                  rel="noopener noreferrer">1eeseungeun</a></strong></u>
+                </p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mx-auto mt-2 xl:mt-16 max-w-7xl px-6 sm:mt-0 lg:px-8">
+            <div class="mx-auto max-w-4xl text-center">
+                <p class="mt-2 text-2xl sm:text-4xl font-bold tracking-tight text-white sm:text-5xl">
+                    Choose Your Favourite<br>Chelsea Player</p>
+            </div>
+            <p class="px-10 sm:px-0 text-base sm:text-lg mx-auto mt-6 max-w-2xl text-center leading-6 xl:leading-8 text-gray-300">
+                Congratulations! This is your chosen player.</p>
+            <div class="mt-8 sm:mt-16 flex justify-center">
+            </div>
+            <div class="mx-auto max-w-[500px] rounded-3xl p-8 xl:p-10 bg-white/5 ring-2 ring-indigo-500" id="resultArea">
+                <div class="flex items-center justify-center flex-col">
+                    <img src="" class="w-[100px] sm:w-[200px]" id="winner-image" alt="Winner">
+                    <p id="winner-name" class="text-2xl sm:text-3xl mt-5 font-semibold leading-8 text-white text-center"></p>
+                </div>
+            </div>
+        </div>
+        <!-- home button & restart button -->
+        <div class="sm:pb-10">
+            <div class="mt-5 sm:mt-10 flex items-center justify-center gap-x-6">
+                <a href="#"
+                   class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                   onClick="window.location.replace('/footballersorter/chelsea/sort/index.html')">
+                    Restart</a>
+            </div>
+            <div class="mt-3 sm:mt-5 flex items-center justify-center gap-x-6">
+                <a href="#"
+                   class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                   onClick="window.location.replace('/footballersorter')">
+                    Home</a>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="sm:hidden my-8">
+            <p class="text-center text-sm text-bold leading-5 text-gray-400 md:order-1 md:mt-0">
+                Copyright &copy; 2023,
+                <u><strong><a href="https://github.com/1eeseungeun/footballersorter" target="_blank"
+                              rel="noopener noreferrer">1eeseungeun</a></strong></u>
+            </p>
+        </div>
+    </footer>
+</div>
+<script>
+    // URL에서 우승자 정보 가져오기
+    const urlParams = new URLSearchParams(window.location.search);
+    const winnerImg = urlParams.get('winner-image');
+    const winnerName = urlParams.get('winner-name');
+
+    // 우승자 정보 표시
+    document.getElementById('winner-image').src = winnerImg;
+    document.getElementById('winner-name').textContent = winnerName;
+  </script>
+</body>
+</html>
