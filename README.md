@@ -8,9 +8,9 @@
 <br>
 <div align="center">
 <p>
-  This is a fanmade website to sort your favorite football players of each football teams.
+  This is a fanmade website to sort your favourite football players of each football teams.
     <br>
-    <a href="https://1eeseungeun.github.io/footballersorter/">View the game list</a>
+    <a href="https://1eeseungeun.github.io/footballersorter/">Game List</a>
   </p>
 </div>
 <br/>
