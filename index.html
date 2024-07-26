@@ -12,7 +12,7 @@
     <title>Game List</title>
 </head>
 <body>
-<div class="bg-gray-900 flex flex-col h-screen">
+<div id="all-bg" class="bg-gray-900 flex flex-col h-screen">
     <!-- Header -->
     <header>
         <div class="flow-root">
@@ -30,12 +30,20 @@
                     <div class="flex justify-center items-center">
                         <p id="header-text" class="text-xl font-bold text-white text-center">Game List</p>
                     </div>
-                    <button class="absolute right-7 top-1.5">
+                    <button class="absolute right-16 top-1.5">
                         <svg id="searchBtn" class="w-4 h-4 text-white" aria-hidden="true"
                              xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 20 20">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                   d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                        </svg>
+                    </button>
+                    <button class="absolute right-7 top-1">
+                        <svg id="requestBtn" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                             stroke-width="1.5"
+                             stroke="currentColor" class="w-5 h-5 text-white size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                  d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
                         </svg>
                     </button>
                 </div>
@@ -239,9 +247,54 @@
                     </div>
                 </a>
             </div>
+            <!-- request form -->
+            <aside class="hidden sm:block mx-auto py-10 sm:py-16 lg:py-20">
+                <div class="px-4 mx-auto max-w-8xl">
+                    <h2 class="mb-4 text-2xl md:text-4xl font-bold tracking-tight text-white md:font-extrabold lg:leading-none md:text-center lg:mb-7">
+                        Request a new club
+                    </h2>
+                    <p class="mb-4 text-base text-gray-400 md:mb-8 dark:text-gray-400 md:text-center md:text-xl lg:px-20 xl:px-56">
+                        Do you want to play a game with your favorite club? Request a new club to add.
+                    </p>
+                    <div class="mb-4">
+                        <form id="requestForm"
+                              action="https://script.google.com/macros/s/AKfycbz0sNygoTpl70bDHF5KdMMviPnCI7b5fWjPMcKSgKitCd3q2llTs_Fwk2EIfM3tC5gyUg/exec"
+                              class="gform" method="POST"
+                              data-email="footballersorter@gmail.com">
+                            <div class="form-elements flex max-w-xl md:mx-auto">
+                                <div class="w-full mr-3" data-style="clean">
+                                    <div class="relative h-full">
+                                        <input type="text" id="message" name="message"
+                                               class="block w-full px-3 py-4 pl-6 text-base text-gray-900 bg-white border border-gray-200 rounded-xl formkit-input focus:ring-blue-500 focus:outline-none"
+                                               placeholder="Enter the club you want to request" required="">
+                                    </div>
+                                </div>
+                                <button id="submitBtn">
+                                    <input type="submit" data-element="submit" id="submit"
+                                           class="formkit-submit w-32 px-8 py-4 text-base font-medium text-center text-white bg-blue-700 border border-blue-700 cursor-pointer rounded-xl formkit-submit hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600"
+                                           value="Request">
+                                </button>
+                                <!-- loading -->
+                                <div id="loading"
+                                     class="hidden w-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xl text-sm px-5 py-2.5 text-center inline-flex items-center">
+                                    <svg aria-hidden="true" role="status"
+                                         class="inline w-4 h-4 me-3 text-white animate-spin" viewBox="0 0 100 101"
+                                         fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"
+                                              fill="#E5E7EB"/>
+                                        <path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z"
+                                              fill="currentColor"/>
+                                    </svg>
+                                    Loading...
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </aside>
         </div>
     </main>
-    <footer class="bg-gray-900 content-end fixed bottom-0 left-0 right-0">
+    <footer id="footer" class="bg-gray-900 content-end fixed bottom-0 left-0 right-0">
         <div class="sm:hidden py-5">
             <p class="text-center text-sm text-bold leading-5 text-gray-400 md:order-1 md:mt-0">
                 Copyright &copy; 2024,
@@ -251,6 +304,59 @@
         </div>
     </footer>
 </div>
+<!-- mobile slide up request form -->
+<div id="slideUpPanel"
+     class="slide-up hidden sm:hidden fixed bottom-0 left-0 right-0 p-4 bg-gray-900 shadow-lg rounded-t-2xl max-h-full overflow-auto">
+    <div id="loading2-icon" role="status" class="hidden absolute -translate-x-1/2 -translate-y-1/2 top-2/4 left-1/2">
+        <svg aria-hidden="true" class="w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor"/><path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentFill"/></svg>
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div id="loading2" class="">
+        <div class="flex flex-col">
+            <div class="text-right px-4">
+                <!-- close button -->
+                <button id="closePanelBtn" class="text-gray-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                         stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="justify-between items-center">
+                <div class="px-4 py-32 mx-auto max-w-8xl">
+                    <h2 class="mb-4 text-2xl md:text-4xl font-bold tracking-tight text-white md:font-extrabold lg:leading-none md:text-center lg:mb-7">
+                        Request a new club
+                    </h2>
+                    <p class="mb-4 text-base text-gray-400 md:mb-8 dark:text-gray-400 md:text-center md:text-xl lg:px-20 xl:px-56">
+                        Do you want to play a game with your favorite club? Request a new club to add.
+                    </p>
+                    <div class="mb-4">
+                        <form id="requestForm2"
+                              action="https://script.google.com/macros/s/AKfycbz0sNygoTpl70bDHF5KdMMviPnCI7b5fWjPMcKSgKitCd3q2llTs_Fwk2EIfM3tC5gyUg/exec"
+                              class="gform" method="POST"
+                              data-email="footballersorter@gmail.com">
+                            <div class="form-elements flex flex-col max-w-xl md:mx-auto">
+                                <div class="w-full mb-3" data-style="clean">
+                                    <div class="relative h-full">
+                                        <input type="text" id="message2" name="message"
+                                               class="block w-full px-3 py-4 pl-6 text-base text-gray-900 bg-white border border-gray-200 rounded-xl formkit-input focus:ring-blue-500 focus:outline-none"
+                                               placeholder="Enter the club you want to request" required="">
+                                    </div>
+                                </div>
+                                <button id="submitBtn2" class="text-right">
+                                    <input type="submit" data-element="submit" id="submit2"
+                                           class="formkit-submit w-28 px-5 py-3 text-base font-medium text-center text-white bg-blue-700 border border-blue-700 cursor-pointer rounded-xl formkit-submit hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600"
+                                           value="Request">
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="src/assets/js/main.js"></script>
+<script data-cfasync="false" type="text/javascript" src="src/assets/js/form-submission-handler.js"></script>
 </body>
 </html>

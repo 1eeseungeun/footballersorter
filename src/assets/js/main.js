@@ -44,8 +44,9 @@ window.addEventListener('load', function () {
 });
 
 // search function
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const searchBtn = document.getElementById('searchBtn');
+    const requestBtn = document.getElementById('requestBtn');
     const searchInput = document.getElementById('searchInput');
     const searchField = document.getElementById('searchField');
     const searchField2 = document.getElementById('searchField2');
@@ -53,28 +54,31 @@ document.addEventListener('DOMContentLoaded', function() {
     const teams = document.querySelectorAll('.not-prose > div');
 
     // search btn -> search bar comes up
-    searchBtn.addEventListener('click', function() {
+    searchBtn.addEventListener('click', function () {
         searchBtn.classList.add('hidden');
+        requestBtn.classList.add('hidden');
         searchInput.classList.remove('hidden');
         searchInput.classList.remove('translate-x-full');
         searchField.focus();
     });
 
     // cancel btn -> search bar hidden
-    cancelBtn.addEventListener('click', function() {
+    cancelBtn.addEventListener('click', function () {
         searchInput.classList.add('hidden');
         searchBtn.classList.remove('hidden');
+        requestBtn.classList.remove('hidden');
+        searchInput.classList.add('translate-x-full');
         searchField.value = '';
         filterTeams('');
     });
 
     // search team
-    searchField.addEventListener('input', function() {
+    searchField.addEventListener('input', function () {
         const searchText = searchField.value.trim().toLowerCase();
         filterTeams(searchText);
     });
 
-    searchField2.addEventListener('input', function() {
+    searchField2.addEventListener('input', function () {
         const searchText2 = searchField2.value.trim().toLowerCase();
         filterTeams(searchText2);
     });
@@ -92,12 +96,37 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // mb: hide the search bar
-    document.addEventListener('click', function(event) {
+    document.addEventListener('click', function (event) {
         if (!searchInput.contains(event.target) && event.target !== searchBtn) {
             searchInput.classList.add('hidden');
             searchBtn.classList.remove('hidden');
+            requestBtn.classList.remove('hidden');
             searchField.value = '';
             filterTeams('');
         }
+    });
+
+    const closePanelBtn = document.getElementById('closePanelBtn');
+    const slideUpPanel = document.getElementById('slideUpPanel');
+    const allBackground = document.getElementById('all-bg')
+    const footer = document.getElementById('footer')
+
+    requestBtn.addEventListener('click', () => {
+        footer.classList.add('hidden');
+        slideUpPanel.classList.remove('hidden');
+        slideUpPanel.classList.add('show');
+        slideUpPanel.classList.add('z-50');
+        allBackground.classList.add('opacity-80');
+        allBackground.classList.add('overlay-hidden');
+        document.body.style.overflow = 'hidden';
+    });
+
+    closePanelBtn.addEventListener('click', () => {
+        slideUpPanel.classList.remove('show');
+        slideUpPanel.classList.remove('z-50');
+        allBackground.classList.remove('opacity-80');
+        footer.classList.remove('hidden');
+        allBackground.classList.remove('overlay-hidden');
+        document.body.style.overflow = '';
     });
 });
