@@ -51,7 +51,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const searchField = document.getElementById('searchField');
     const searchField2 = document.getElementById('searchField2');
     const cancelBtn = document.getElementById('cancelBtn');
-    const teams = document.querySelectorAll('.not-prose > div');
+    const teams = document.querySelectorAll('.teams .team');
+    const searchForm2 = document.getElementById('searchForm2');
 
     // search btn -> search bar comes up
     searchBtn.addEventListener('click', function () {
@@ -74,19 +75,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // search team
     searchField.addEventListener('input', function () {
-        const searchText = searchField.value.trim().toLowerCase();
+        const searchText = searchField.value.toLowerCase();
         filterTeams(searchText);
     });
 
     searchField2.addEventListener('input', function () {
-        const searchText2 = searchField2.value.trim().toLowerCase();
-        filterTeams(searchText2);
+        const searchText = searchField2.value.toLowerCase();
+        filterTeams(searchText);
+    });
+
+    // prevent the search event
+    searchForm2.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+        }
     });
 
     // team filtering
     function filterTeams(searchText) {
         teams.forEach(team => {
-            const teamName = team.querySelector('h3').textContent.trim().toLowerCase();
+            const teamName = team.querySelector("h3").textContent.toLowerCase();
             if (teamName.includes(searchText)) {
                 team.style.display = 'block';
             } else {
@@ -103,6 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
             requestBtn.classList.remove('hidden');
             searchField.value = '';
             filterTeams('');
+            filterTeams2('');
         }
     });
 
@@ -116,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function () {
         slideUpPanel.classList.remove('hidden');
         slideUpPanel.classList.add('show');
         slideUpPanel.classList.add('z-50');
-        allBackground.classList.add('opacity-80');
+        allBackground.classList.add('opacity-30');
         allBackground.classList.add('overlay-hidden');
         document.body.style.overflow = 'hidden';
     });
@@ -124,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function () {
     closePanelBtn.addEventListener('click', () => {
         slideUpPanel.classList.remove('show');
         slideUpPanel.classList.remove('z-50');
-        allBackground.classList.remove('opacity-80');
+        allBackground.classList.remove('opacity-30');
         footer.classList.remove('hidden');
         allBackground.classList.remove('overlay-hidden');
         document.body.style.overflow = '';
