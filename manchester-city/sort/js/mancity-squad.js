@@ -35,13 +35,6 @@ const players = [
       }
   },
     {
-    name: "João Cancelo",
-    img: "https://www.mancity.com/meta/media/pm3b0zop/joao-cancelo.png?width=600",
-    opts: {
-      position: [ "defender" ]
-      }
-  },
-    {
     name: "Ruben Dias",
     img: "https://www.mancity.com/meta/media/w2paltzq/ruben-dias.png?width=600",
     opts: {
@@ -119,6 +112,13 @@ const players = [
       }
   },
     {
+    name: "Ilkay Gundogan",
+    img: "https://www.mancity.com/meta/media/x5nifc2h/gundogan.png?width=600",
+    opts: {
+      position: [ "midfielder" ]
+      }
+  },
+    {
     name: "Mateo Kovacic",
     img: "https://www.mancity.com/meta/media/fqblwuj4/mateo-kovacic.png?width=600",
     opts: {
@@ -161,17 +161,17 @@ const players = [
       }
   },
     {
-    name: "Bernardo Silva",
-    img: "https://www.mancity.com/meta/media/n30l1sq5/bernardo-silva.png?width=600",
+    name: "Savinho",
+    img: "https://www.mancity.com/meta/media/k0bbsjo2/savinho-square-24-25.png?width=600",
     opts: {
       position: [ "midfielder" ]
       }
   },
     {
-    name: "Julian Alvarez",
-    img: "https://www.mancity.com/meta/media/rfjieg5d/julian-alvarez.png?width=600",
+    name: "Bernardo Silva",
+    img: "https://www.mancity.com/meta/media/n30l1sq5/bernardo-silva.png?width=600",
     opts: {
-      position: [ "forward" ]
+      position: [ "midfielder" ]
       }
   },
     {
@@ -181,4 +181,4 @@ const players = [
       position: [ "forward" ]
       }
   }
-]; // 2024-07-15
+]; // 2024-09-10
