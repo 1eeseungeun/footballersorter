@@ -7,8 +7,8 @@ const players = [
       }
   },
     {
-    name: "Marcelo Pitaluga",
-    img: "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2023-09/marcelo-pitaluga-2023-body-image.webp?itok=qM1d66-f",
+    name: "Vitezslav Jaros",
+    img: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2024-08/vitezslav-jaros-bodyshot-alternative-202425.webp?itok=d3_7f4yp",
     opts: {
       position: [ "goalkeeper" ]
       }
@@ -56,29 +56,8 @@ const players = [
       }
   },
     {
-    name: "Rhys Williams",
-    img: "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2023-07/pp-23-24-mens-home-body-williams.webp?itok=g8gHz_Xo",
-    opts: {
-      position: [ "defender" ]
-      }
-  },
-    {
-    name: "Nathaniel Phillips",
-    img: "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2024-01/nathaniel-phillips-04012023-body-image.webp?itok=loe7cYyy",
-    opts: {
-      position: [ "defender" ]
-      }
-  },
-    {
     name: "Trent Alexander-Arnold",
     img: "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2024-06/trent-alexander-arnold-profile-body-shot-202425.webp?itok=OT4PALBE",
-    opts: {
-      position: [ "defender" ]
-      }
-  },
-    {
-    name: "Sepp van den Berg",
-    img: "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2023-02/van-den-berg-body.webp?itok=rhxALMk_",
     opts: {
       position: [ "defender" ]
       }
@@ -140,13 +119,6 @@ const players = [
       }
   },
     {
-    name: "Stefan Bajcetic",
-    img: "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2024-06/stefan-bajcetic-profile-body-shot-202425.webp?itok=5RPsyccE",
-    opts: {
-      position: [ "midfielder" ]
-      }
-  },
-    {
     name: "Luis Diaz",
     img: "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2024-06/luis-diaz-profile-body-shot-202425.webp?itok=nw0mZfU8",
     opts: {
@@ -168,6 +140,13 @@ const players = [
       }
   },
     {
+    name: "Federico Chiesa",
+    img: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2024-08/federico-chiesa-profile-2024-25-bodyshot-v3-30082024.webp?itok=5M7AxnMx",
+    opts: {
+      position: [ "forward" ]
+      }
+  },
+    {
     name: "Cody Gakpo",
     img: "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2024-06/cody-gakpo-profile-body-shot-202425.webp?itok=rmv59Yvf",
     opts: {
@@ -177,20 +156,6 @@ const players = [
     {
     name: "Diogo Jota",
     img: "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2024-06/diogo-jota-profile-body-shot-202425.webp?itok=8D2sg1HJ",
-    opts: {
-      position: [ "forward" ]
-      }
-  },
-     {
-    name: "Fabio Carvalho",
-    img: "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2023-02/carvalho-body.webp?itok=U-0hknPY",
-    opts: {
-      position: [ "forward" ]
-      }
-  },
-    {
-    name: "Ben Doak",
-    img: "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2023-09/ben-doak-body-image-v2-24092023.webp?itok=jaFVipn6",
     opts: {
       position: [ "forward" ]
       }
