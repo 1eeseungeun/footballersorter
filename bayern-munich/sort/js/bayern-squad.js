@@ -14,22 +14,22 @@ const players = [
       }
   },
     {
-    name: "Dayot Upamecano",
-    img: "https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_840%2Cc_fill/q_auto/v1656614772/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/dayot_upamecano.png",
+    name: "Sven Ulreich",
+    img: "https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_840%2Cc_fill/q_auto/v1656615996/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/sven_ulreich.png",
     opts: {
       position: [ "goalkeeper" ]
       }
   },
     {
-    name: "Minjae Kim",
-    img: "https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_840%2Cc_fill/q_auto/v1689695039/cms/public/images/fcbayern-com/players/spielerportraits/teaser/minjae-kim.png",
+    name: "Dayot Upamecano",
+    img: "https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_840%2Cc_fill/q_auto/v1656614772/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/dayot_upamecano.png",
     opts: {
       position: [ "defender" ]
       }
   },
     {
-    name: "De Ligt",
-    img: "https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_840%2Cc_fill/q_auto/v1659953193/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/matthijs-de-ligt.png",
+    name: "Minjae Kim",
+    img: "https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_840%2Cc_fill/q_auto/v1689695039/cms/public/images/fcbayern-com/players/spielerportraits/teaser/minjae-kim.png",
     opts: {
       position: [ "defender" ]
       }
@@ -72,13 +72,6 @@ const players = [
     {
     name: "Tarek Buchmann",
     img: "https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_840%2Cc_fill/q_auto/v1687856498/cms/public/images/fcbayern-com/players/spielerportraits/teaser/Tarek-Buchmann.png",
-    opts: {
-      position: [ "defender" ]
-      }
-  },
-    {
-    name: "Noussair Mazraoui",
-    img: "https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_840%2Cc_fill/q_auto/v1653464477/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/noussair_mazraoui.png",
     opts: {
       position: [ "defender" ]
       }
@@ -140,13 +133,6 @@ const players = [
       }
   },
     {
-    name: "Gabriel Vidović",
-    img: "https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_840%2Cc_fill/q_auto/v1688127176/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/gabriel_vidovic.png",
-    opts: {
-      position: [ "midfielder" ]
-      }
-  },
-    {
     name: "Serge Gnabry",
     img: "https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_840%2Cc_fill/q_auto/v1656615030/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/serge_gnabry.png",
     opts: {
@@ -175,8 +161,8 @@ const players = [
       }
   },
     {
-    name: "Bryan Zaragoza",
-    img: "https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_840%2Cc_fill/q_auto/v1706780847/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/bryan-zaragoza.png",
+    name: "Michael Olise",
+    img: "https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_840%2Cc_fill/q_auto/v1720376199/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/michael-olise.png",
     opts: {
       position: [ "forward" ]
       }
@@ -202,4 +188,4 @@ const players = [
       position: [ "forward" ]
       }
   }
-]; // 2024-07-19
+]; // 2024-09-10
