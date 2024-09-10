@@ -7,6 +7,27 @@ const players = [
       }
   },
     {
+    name: "Filip Jorgensen",
+    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Filip_Jorgensen_profile_2024-25_avatar-removebg.png",
+    opts: {
+      position: [ "goalkeeper" ]
+      }
+  },
+    {
+    name: "Marcus Bettinelli",
+    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/BETTINELLI_Marcus_profile_2024-25_avatar-removebg.png",
+    opts: {
+      position: [ "goalkeeper" ]
+      }
+  },
+    {
+    name: "Lucas Bergstrom",
+    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Lucas_Bergstrom_profile_update_2024-25_avatar-removebg.png",
+    opts: {
+      position: [ "goalkeeper" ]
+      }
+  },
+    {
     name: "Axel Disasi",
     img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Axel_Disasi_profile_23-24_with_sponsor_avatar-removebg.png",
     opts: {
@@ -21,6 +42,13 @@ const players = [
       }
   },
     {
+    name: "Tosin Adarabioyo",
+    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Tosin_Adarabioyo_profile_2024-25_avatar-removebg.png",
+    opts: {
+      position: [ "defender" ]
+      }
+  },
+    {
     name: "Benoit Badiashile",
     img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Benoit_Badiashile_profile_23-24_with_sponsor_avatar-removebg.png",
     opts: {
@@ -28,8 +56,8 @@ const players = [
       }
   },
     {
-    name: "Trevoh Chalobah",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Trevoh_Chalobah_profile_23-24_with_sponsor_avatar-removebg.png",
+    name: "Levi Colwill",
+    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Levi_Colwill_profile_23-24_with_sponsor_avatar-removebg.png",
     opts: {
       position: [ "defender" ]
       }
@@ -49,13 +77,6 @@ const players = [
       }
   },
     {
-    name: "Levi Colwill",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Levi_Colwill_profile_23-24_with_sponsor_avatar-removebg.png",
-    opts: {
-      position: [ "defender" ]
-      }
-  },
-    {
     name: "Malo Gusto",
     img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Malo_Gusto_profile_23-24_with_sponsor_avatar-removebg.png",
     opts: {
@@ -70,15 +91,8 @@ const players = [
       }
   },
     {
-    name: "Tosin Adarabioyo",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Tosin_Adarabioyo_profile_signing_avatar-removebg.png",
-    opts: {
-      position: [ "defender" ]
-      }
-  },
-    {
-    name: "Malang Sarr",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Malang_Sarr_profile_23-24_avatar-removebg.png",
+    name: "Renato Veiga",
+    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Renato_Veiga_profile_2024-25_avatar-removebg.png",
     opts: {
       position: [ "defender" ]
       }
@@ -91,13 +105,6 @@ const players = [
       }
   },
     {
-    name: "Lesley Ugochukwu",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Lesley_Ugochukwu_profile_23-24_with_avatar-removebg.png",
-    opts: {
-      position: [ "midfielder" ]
-      }
-  },
-    {
     name: "Carney Chukwuemeka",
     img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Carney_Chukwuemeka_profile_23-24_with_sponsor_avatar-removebg.png",
     opts: {
@@ -105,8 +112,8 @@ const players = [
       }
   },
     {
-    name: "Conor Gallagher",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Conor_Gallagher_profile_23-24_with_sponsor_avatar-removebg.png",
+    name: "Kiernan Dewsbury-Hall",
+    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Kiernan_Dewsbury-Hall_profile_2024-25_avatar-removebg.png",
     opts: {
       position: [ "midfielder" ]
       }
@@ -126,13 +133,6 @@ const players = [
       }
   },
     {
-    name: "Romeo Lavia",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Romeo_Lavia_profile_23-24_avatar-removebg.png",
-    opts: {
-      position: [ "midfielder" ]
-      }
-  },
-    {
     name: "Omari Kellyman",
     img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Omari_Kellyman_profile_temp-removebg.png",
     opts: {
@@ -140,24 +140,17 @@ const players = [
       }
   },
     {
-    name: "Kiernan Dewsbury",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Kiernan_Dewsbury-Hall_profile_2024-25_temporary_avatar-removebg.png",
+    name: "Romeo Lavia",
+    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Romeo_Lavia_profile_23-24_avatar-removebg.png",
     opts: {
       position: [ "midfielder" ]
       }
   },
     {
-    name: "Andrey Santos",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Santos_profile_2_avatar_23-24-removebg.png",
+    name: "Pedro Neto",
+    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Pedro_Neto_profile_update_2024-25_avatar-removebg.png",
     opts: {
       position: [ "midfielder" ]
-      }
-  },
-    {
-    name: "Raheem Sterling",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Raheem_Sterling_profile_23-24_with_sponsor_avatar-removebg.png",
-    opts: {
-      position: [ "forward" ]
       }
   },
     {
@@ -170,6 +163,13 @@ const players = [
      {
     name: "Noni Madueke",
     img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Noni_Madueke_profile_23-24_with_sponsor_avatar-removebg.png",
+    opts: {
+      position: [ "forward" ]
+      }
+  },
+    {
+    name: "Joao Felix",
+    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Joao_Felix_profile_2024-25_avatar-removebg.png",
     opts: {
       position: [ "forward" ]
       }
@@ -189,8 +189,8 @@ const players = [
       }
   },
     {
-    name: "Armando Broja",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Armando_Broja_profile_23-24_with_sponsor_avatar-removebg.png",
+    name: "Jadon Sancho",
+    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Jadon_Sancho_profile_temp_2024-25_avatar-removebg.png",
     opts: {
       position: [ "forward" ]
       }
@@ -203,24 +203,10 @@ const players = [
       }
   },
     {
-    name: "Deivid Washington",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Deivid_Washington_profile_23-24_avatar-removebg.png",
-    opts: {
-      position: [ "forward" ]
-      }
-  },
-    {
-    name: "David Fofana",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/D_Fofana_profile_avatar_23-24-removebg.png",
-    opts: {
-      position: [ "forward" ]
-      }
-  },
-    {
-    name: "Angelo Gabriel",
-    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Angelo_profile_avatar_23-24-removebg.png",
+    name: "Marc Guiu",
+    img: "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Marc_Guiu_profile_2024-25_avatar-removebg.png",
     opts: {
       position: [ "forward" ]
       }
   }
-]; // 2024-07-12
+]; // 2024-09-10

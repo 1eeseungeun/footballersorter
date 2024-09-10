@@ -45,7 +45,7 @@ let step = 1;
 let step2 = 0;
 const results = {};
 let currentClicks = 0;
-const totalClicks = 31;
+const totalClicks = 25;
 
 window.addEventListener('load', () => {
     preloadImages(players);
