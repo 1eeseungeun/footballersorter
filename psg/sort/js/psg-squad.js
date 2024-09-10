@@ -1,11 +1,4 @@
 const players = [
-  {
-    name: "Arnau Tenas",
-    img: "https://www.psg.fr/media/253243/joueurs-24-25_0000_tenas.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
-    opts: {
-      position: [ "goalkeeper" ]
-      }
-  },
     {
     name: "Gianluigi Donnarumma",
     img: "https://www.psg.fr/media/207154/joueurs-24-25_0001_donarumma.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
@@ -16,6 +9,13 @@ const players = [
     {
     name: "Matvey Safonov",
     img: "https://www.psg.fr/media/270647/joueurs-24-25_safonov.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
+    opts: {
+      position: [ "goalkeeper" ]
+      }
+  },
+  {
+    name: "Arnau Tenas",
+    img: "https://www.psg.fr/media/253243/joueurs-24-25_0000_tenas.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
     opts: {
       position: [ "goalkeeper" ]
       }
@@ -42,13 +42,6 @@ const players = [
       }
   },
     {
-    name: "Danilo Pereira",
-    img: "https://www.psg.fr/media/187878/joueurs-24-25_0007_danilo.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
-    opts: {
-      position: [ "defender" ]
-      }
-  },
-    {
     name: "Lucas Hernandez",
     img: "https://www.psg.fr/media/249249/joueurs-24-25_hernandez.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
     opts: {
@@ -58,13 +51,6 @@ const players = [
     {
     name: "Nuno Mendes",
     img: "https://www.psg.fr/media/210082/joueurs-24-25_0014_mendes.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
-    opts: {
-      position: [ "defender" ]
-      }
-  },
-    {
-    name: "Nordi Mukiele",
-    img: "https://www.psg.fr/media/228214/joueurs-24-25_0015_mukiele.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
     opts: {
       position: [ "defender" ]
       }
@@ -91,10 +77,10 @@ const players = [
       }
   },
     {
-    name: "Manuel Ugarte",
-    img: "https://www.psg.fr/media/249246/joueurs-24-25_0020_ugarte.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
+    name: "Willian Pacho",
+    img: "https://www.psg.fr/media/272135/joueurs-24-25_pacho.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
     opts: {
-      position: [ "midfielder" ]
+      position: [ "defender" ]
       }
   },
     {
@@ -119,15 +105,8 @@ const players = [
       }
   },
     {
-    name: "Gabriel Moscardo",
-    img: "https://www.psg.fr/media/271126/joueurs-24-25_moscardo.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
-    opts: {
-      position: [ "midfielder" ]
-      }
-  },
-     {
-    name: "Carlos Soler",
-    img: "https://www.psg.fr/media/230563/joueurs-24-25_0018_soler.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
+    name: "Senny Mayulu",
+    img: "https://www.psg.fr/media/261179/joueurs-24-25_0009_mayulu.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
     opts: {
       position: [ "midfielder" ]
       }
@@ -140,8 +119,8 @@ const players = [
       }
   },
     {
-    name: "Senny Mayulu",
-    img: "https://www.psg.fr/media/261179/joueurs-24-25_0009_mayulu.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
+    name: "João Neves",
+    img: "https://www.psg.fr/media/271687/joueurs-2425-neves.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
     opts: {
       position: [ "midfielder" ]
       }
@@ -168,6 +147,13 @@ const players = [
       }
   },
     {
+    name: "Désiré Doué",
+    img: "https://www.psg.fr/media/272747/card-24-25_doue.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
+    opts: {
+      position: [ "forward" ]
+      }
+  },
+    {
     name: "Randal Kolo Muani",
     img: "https://www.psg.fr/media/252969/joueurs-24-25_0003_kolo-muani.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
     opts: {
@@ -180,5 +166,12 @@ const players = [
     opts: {
       position: [ "forward" ]
       }
+  },
+    {
+    name: "Ibrahim Mbaye",
+    img: "https://www.psg.fr/media/273969/joueurs-24-25_mbaye.png?anchor=center&mode=crop&width=400&height=600&quality=75",
+    opts: {
+      position: [ "forward" ]
+      }
   }
-]; // 2024-07-24
+]; // 2024-09-10
