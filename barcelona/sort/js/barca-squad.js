@@ -14,8 +14,8 @@ const players = [
       }
   },
     {
-    name: "João Cancelo",
-    img: "https://www.fcbarcelona.com/photo-resources/2023/09/29/6c68dcdd-efa3-4bc9-b38e-acb9bce4b88d/jugador_fitxa-cancelo-mini.png?width=670&height=790",
+    name: "Pau Cubarsí",
+    img: "https://www.fcbarcelona.com/photo-resources/2024/08/21/a307b5b8-5d58-42ee-9d38-ef760289978a/Jugador-Pau_Cubarsi_1.png?width=300&height=354",
     opts: {
       position: [ "defender" ]
       }
@@ -56,17 +56,31 @@ const players = [
       }
   },
     {
+    name: "Eric García",
+    img: "https://www.fcbarcelona.com/photo-resources/2024/08/21/296c53eb-6077-475c-b474-51350e9b92fa/ERIC-GARCIA.png?width=300&height=354",
+    opts: {
+      position: [ "defender" ]
+      }
+  },
+    {
     name: "Gavi",
     img: "https://www.fcbarcelona.com/photo-resources/2023/10/04/d78dbb69-390a-4540-9d0b-be36b46534f3/mini_30-GAVI.png?width=670&height=790",
     opts: {
-      position: [ "defender" ]
+      position: [ "midfielder" ]
       }
   },
     {
     name: "Pedri",
     img: "https://www.fcbarcelona.com/photo-resources/2023/10/04/157fb14b-3f65-403c-b107-597bbaa994c0/mini_08-PEDRI.png?width=670&height=790",
     opts: {
-      position: [ "defender" ]
+      position: [ "midfielder" ]
+      }
+  },
+    {
+    name: "Pablo Torre",
+    img: "https://www.fcbarcelona.com/photo-resources/2024/08/21/3213be83-b6ca-443b-9e77-9ca642fb220b/PABLO-TORRE.png?width=300&height=354",
+    opts: {
+      position: [ "midfielder" ]
       }
   },
     {
@@ -77,15 +91,15 @@ const players = [
       }
   },
     {
-    name: "Oriol Romeu",
-    img: "https://www.fcbarcelona.com/photo-resources/2023/10/04/7945dd96-fc93-4bac-9e6c-c32d54663e19/mini_ORIOL_ROMEU.png?width=670&height=790",
+    name: "Marc Casadó",
+    img: "https://www.fcbarcelona.com/photo-resources/2024/08/21/631f4a70-1c35-4bd6-a731-04bee20c3ba8/06-Casado-tr.png?width=300&height=354",
     opts: {
       position: [ "midfielder" ]
       }
   },
     {
-    name: "Sergi Roberto",
-    img: "https://www.fcbarcelona.com/photo-resources/2023/10/04/9e2651bc-c822-4678-8542-932cad009b32/mini_20-S_ROBERTO.png?width=670&height=790",
+    name: "Dani Olmo",
+    img: "https://www.fcbarcelona.com/photo-resources/2024/08/21/a8e345ac-f8db-4123-b91e-71895bde7669/Fitxa-Olmo1.png?width=300&height=354",
     opts: {
       position: [ "midfielder" ]
       }
@@ -98,31 +112,45 @@ const players = [
       }
   },
     {
-    name: "Ilkay Gündogan",
-    img: "https://www.fcbarcelona.com/photo-resources/2023/10/04/c0ce693c-7462-407e-a878-1e6555573748/mini_gundogan.png?width=670&height=790",
-    opts: {
-      position: [ "midfielder" ]
-      }
-  },
-    {
     name: "Ferran Torres",
     img: "https://www.fcbarcelona.com/photo-resources/2023/10/04/77ea4a0e-c5ba-474e-9ced-3739157b63d8/mini_11-FERRAN_TORRES.png?width=670&height=790",
     opts: {
-      position: [ "midfielder" ]
-      }
-  },
-     {
-    name: "João Félix",
-    img: "https://www.fcbarcelona.com/photo-resources/2023/10/04/42cec217-3b25-4ac7-96bb-d1fa60fda997/jugador_fitxa-felix-mini.png?width=670&height=790",
-    opts: {
-      position: [ "midfielder" ]
+      position: [ "forward" ]
       }
   },
     {
-    name: "Vitor Roque",
-    img: "https://www.fcbarcelona.com/photo-resources/2024/01/05/d29ca589-25b2-4be3-a896-2a9812bcc7ef/mini_19-VITOR_ROQUE.png?width=670&height=790",
+    name: "Robert Lewandowski",
+    img: "https://www.fcbarcelona.com/photo-resources/2023/10/04/22dd0d30-d58f-448c-a51e-47d44c894d16/mini_09-ROBERT_LEWANDOWSKI.png?width=300&height=354",
+    opts: {
+      position: [ "forward" ]
+      }
+  },
+    {
+    name: "Ansu Fati",
+    img: "https://www.fcbarcelona.com/photo-resources/2024/08/21/584cc187-530a-4a40-b420-d1191988c0f3/Fitxax-Ansu1.png?width=300&height=354",
+    opts: {
+      position: [ "forward" ]
+      }
+  },
+    {
+    name: "Raphinha",
+    img: "https://www.fcbarcelona.com/photo-resources/2023/10/03/1dbf5797-bef9-46c8-9dbf-bb6bdba89b2a/mini_22-RAPHINHA.png?width=300&height=354",
+    opts: {
+      position: [ "forward" ]
+      }
+  },
+    {
+    name: "Pau Víctor",
+    img: "https://www.fcbarcelona.com/photo-resources/2023/10/10/c96a418a-abec-4e99-9481-cea468101497/19-Victor.png?width=300&height=354",
+    opts: {
+      position: [ "forward" ]
+      }
+  },
+    {
+    name: "Lamine Yamal",
+    img: "https://www.fcbarcelona.com/photo-resources/2024/07/11/e8f2f800-2d6c-4055-86fd-08e456ed8da8/Jugador-Lamine_Yamal_2.png?width=300&height=354",
     opts: {
       position: [ "forward" ]
       }
   }
-]; // 2024-07-16
+]; // 2024-09-10
