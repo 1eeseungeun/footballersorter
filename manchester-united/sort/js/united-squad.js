@@ -28,6 +28,20 @@ const players = [
       }
   },
     {
+    name: "Noussair Mazraoui",
+    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/144/1347824/PlayerProfile-ClickThrough-NM1723625475132.png",
+    opts: {
+      position: [ "defender" ]
+      }
+  },
+    {
+    name: "Matthijs De Ligt",
+    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/144/1347816/PlayerProfile-ClickThrough-template1723624756111.png",
+    opts: {
+      position: [ "defender" ]
+      }
+  },
+    {
     name: "Harry Maguire",
     img: "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333356/5-Harry-Maguire1719821814914.png",
     opts: {
@@ -49,6 +63,13 @@ const players = [
       }
   },
     {
+    name: "Leny Yoro",
+    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/102/1337079/PlayerProfile-ClickThrough-LY1721398070440.png",
+    opts: {
+      position: [ "defender" ]
+      }
+  },
+    {
     name: "Diogo Dalot",
     img: "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333359/20-Diogo-Dalot1719822317111.png",
     opts: {
@@ -63,13 +84,6 @@ const players = [
       }
   },
     {
-    name: "Aaron Wan Bissaka",
-    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333361/29-Aaron-Wan-Bissaka1719822515084.png",
-    opts: {
-      position: [ "defender" ]
-      }
-  },
-    {
     name: "Jonny Evans",
     img: "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333362/35-jonny-Evans1719822613209.png",
     opts: {
@@ -77,8 +91,8 @@ const players = [
       }
   },
     {
-    name: "Sofyan Amrabat",
-    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333354/4-Sofyan-Amrabat1719822217276.png",
+    name: "Harry Amass",
+    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/196/1361138/41-Harry-Amass_31725464821468.png",
     opts: {
       position: [ "defender" ]
       }
@@ -112,8 +126,8 @@ const players = [
       }
   },
     {
-    name: "Facundo Pellistri",
-    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333348/28-Facundo-Pellistri1719823226809.png",
+    name: "Manuel Ugarte",
+    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/188/1358941/PlayerProfile-ClickThrough1725130138244.png",
     opts: {
       position: [ "midfielder" ]
       }
@@ -126,8 +140,8 @@ const players = [
       }
   },
     {
-    name: "Scott McTominay",
-    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333351/39-Scott-McTominay1719823577233.png",
+    name: "Toby Collyer",
+    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/150/1349165/43-Toby-Collyer_11723708193838.png",
     opts: {
       position: [ "midfielder" ]
       }
@@ -140,10 +154,10 @@ const players = [
       }
   },
     {
-    name: "Hannibal Mejbri",
-    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333353/46-Hannibal1719823977860.png",
+    name: "Rasmus Hojlund",
+    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333338/11-Rasmus-Hojlund1719824164008.png",
     opts: {
-      position: [ "midfielder" ]
+      position: [ "forward" ]
       }
   },
     {
@@ -154,8 +168,8 @@ const players = [
       }
   },
     {
-    name: "Rasmus Hojlund",
-    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333338/11-Rasmus-Hojlund1719824164008.png",
+    name: "Joshua Zirkzee",
+    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/97/1335659/JZ-PlayerProfile1721057256182.png",
     opts: {
       position: [ "forward" ]
       }
@@ -182,24 +196,10 @@ const players = [
       }
   },
     {
-    name: "Jadon Sancho",
-    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333341/25-Jadon-Sancho1719824557571.png",
-    opts: {
-      position: [ "forward" ]
-      }
-  },
-    {
-    name: "Shola Shoretire",
-    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333342/47-Shola-Shoretire1719824738450.png",
-    opts: {
-      position: [ "forward" ]
-      }
-  },
-    {
-    name: "Joshua Zirkzee",
-    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/97/1335659/JZ-PlayerProfile1721057256182.png",
+    name: "Ethan Wheatley",
+    img: "https://assets.manutd.com/AssetPicker/images/0/0/20/150/1349162/36-Ethan-Wheatley_11723708669464.png",
     opts: {
       position: [ "forward" ]
       }
   }
-]; // 2024-07-19
+]; // 2024-09-10
