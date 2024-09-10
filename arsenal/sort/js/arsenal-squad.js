@@ -1,11 +1,4 @@
 const players = [
-  {
-    name: "Aaron Ramsdale",
-    img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Ramsdale_7.jpg?h=74c28fda&auto=webp&itok=DtsiUau1",
-    opts: {
-      position: [ "goalkeeper" ]
-      }
-  },
     {
     name: "David Raya",
     img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Raya.png?h=5b7d5ca2&auto=webp&itok=ukYkqDAn",
@@ -14,8 +7,8 @@ const players = [
       }
   },
     {
-    name: "Karl Hein",
-    img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Hein_1.jpg?h=74c28fda&auto=webp&itok=HGTP0Qkq",
+    name: "Norberto Neto",
+    img: "https://www.arsenal.com/sites/default/files/styles/tablet_16x9/public/images/neto-headshot.png?auto=webp&itok=woWkEJAu",
     opts: {
       position: [ "goalkeeper" ]
       }
@@ -63,6 +56,13 @@ const players = [
       }
   },
     {
+    name: "Oleksandr Zinchenko",
+    img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Zinchenko_1.jpg?h=74c28fda&auto=webp&itok=LSgorHY9",
+    opts: {
+      position: [ "defender" ]
+      }
+  },
+    {
     name: "Takehiro Tomiyasu",
     img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Tomiyasu_0.png?h=74c28fda&auto=webp&itok=o5idlc_6",
     opts: {
@@ -70,15 +70,8 @@ const players = [
       }
   },
     {
-    name: "Nuno Tavares",
-    img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/tavares_.com_headshot.jpg?auto=webp&itok=eNwLdzDz",
-    opts: {
-      position: [ "defender" ]
-      }
-  },
-    {
-    name: "Oleksandr Zinchenko",
-    img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Zinchenko_1.jpg?h=74c28fda&auto=webp&itok=LSgorHY9",
+    name: "Riccardo Calafiori",
+    img: "https://www.arsenal.com/sites/default/files/styles/tablet_16x9/public/images/Calafiori_web.png?auto=webp&itok=Iq2KFnKW",
     opts: {
       position: [ "defender" ]
       }
@@ -98,13 +91,6 @@ const players = [
       }
   },
     {
-    name: "Emile Smith Rowe",
-    img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Smith-Rowe.jpg?h=74c28fda&auto=webp&itok=C81KsB51",
-    opts: {
-      position: [ "midfielder" ]
-      }
-  },
-    {
     name: "Jorginho",
     img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Jorgihno.jpg?h=74c28fda&auto=webp&itok=RWpASIMN",
     opts: {
@@ -112,15 +98,8 @@ const players = [
       }
   },
     {
-    name: "Fabio Vieira",
-    img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Vieira_1.jpg?h=74c28fda&auto=webp&itok=v_cSKJeF",
-    opts: {
-      position: [ "midfielder" ]
-      }
-  },
-    {
-    name: "Albert Sambi Lokonga",
-    img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/lokonga_.com_headshot.jpg?auto=webp&itok=LDHhQUzS",
+    name: "Mikel Merino",
+    img: "https://www.arsenal.com/sites/default/files/styles/tablet_16x9/public/images/merino-headshot.png?auto=webp&itok=tFTBEpnf",
     opts: {
       position: [ "midfielder" ]
       }
@@ -160,13 +139,6 @@ const players = [
       position: [ "forward" ]
       }
   },
-     {
-    name: "Eddie Nketiah",
-    img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Nketiah-New.jpg?h=74c28fda&auto=webp&itok=aPlr7LhR",
-    opts: {
-      position: [ "forward" ]
-      }
-  },
     {
     name: "Leandro Trossard",
     img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Trossard_2.jpg?h=74c28fda&auto=webp&itok=TOM1k7dg",
@@ -175,10 +147,10 @@ const players = [
       }
   },
     {
-    name: "Reiss Nelson",
-    img: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Nelson_17.jpg?h=74c28fda&auto=webp&itok=yV7qMokw",
+    name: "Raheem Sterling",
+    img: "https://www.arsenal.com/sites/default/files/styles/tablet_16x9/public/images/sterling-headshot.png?auto=webp&itok=hOyF5-fP",
     opts: {
       position: [ "forward" ]
       }
   }
-]; // 2024-07-16
+]; // 2024-09-10
